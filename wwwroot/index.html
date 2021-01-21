@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="/css/main.css" rel="stylesheet" />
+    <link href="/img/favicon-32x32.png" rel="icon">
+    <title>Grade Calculator</title>
+</head>
+
+<body>
+    <h1>Jack Seal</h1>
+    <img src="/img/Pest Control Sales.JPG" />
+    <p>I hope to refine my JavaScript skills and develop apps that enterprises can use and that make me lethal in job searches. </p>
+    <p>Job List</p>
+    <ul class="joblist">
+        <li>1:  Information Systems Manager</li>
+        <li>2:  Tech Sales</li>
+        <li>3:  Computer Network Architect</li>
+    </ul>
+
+    <h2>Please enter your percentage in each category:</h2>
+    <form>
+        <label>Assignments:</label>
+        <input id="assignments" />
+        <br />
+        <br />
+        <label>Group Projects:</label>
+        <input id="groupProjects" />
+        <br />
+        <br />
+        <label>Quizzes:</label>
+        <input id="quizzes" />
+        <br />
+        <br />
+        <label>Exams:</label>
+        <input id="exams" />
+        <br />
+        <br />
+        <label>INTEX:</label>
+        <input id="intex" />
+        <br />
+        <br />
+        <input type="button" value="Calculate" id="calculateButton" onclick="calculateGrades()" />
+    </form>
+
+    <h3>Final Grade</h3>
+    <p>        
+        <label>Total Percentage: <input type="text" id="total" value="0" /></label>
+        <br />
+        <br />
+        <label>Letter Grade: <input type="text" id="letter" value="E" /></label>
+    </p>
+
+
+    <script src="/js/gradeCalculator.js"></script>
+</body>
+
+</html>
